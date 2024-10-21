@@ -8,6 +8,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
+  color: #131313;
 }
 header {
   display: flex;
@@ -26,4 +27,33 @@ header {
 .menu a {
   text-decoration: none;
   padding: 0 16px;
+}
+
+/* banner */
+.banner {
+  padding: 50px 0;
+}
+.banner .content {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+.sub-title {
+  color: #13131399;
+  font-size: 24px;
+  font-weight: bold;
+}
+.banner h1 {
+  line-height: 88px;
+  font-size: 72px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #0e7a81;
+  border-radius: 12px;
+  padding: 16px 32px;
+  border: none;
 }
